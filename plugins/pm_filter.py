@@ -708,13 +708,7 @@ async def advantage_spell_chok(msg):
     movielist += [(re.sub(r'(\-|\(|\)|_)', '', i, flags=re.IGNORECASE)).strip() for i in gs_parsed]
     movielist = list(dict.fromkeys(movielist)) # removing duplicates
     if not movielist:
-        hmm = InlineKeyboardMarkup(
-        [
-            [
-                 InlineKeyboardButton('🕵️‍♂️ Search On Google 🕵️‍♂️', url=f'https://google.com/search?q={search}')
-            ]
-        ]
-    )
+        
         k = await msg.reply("I couldn't find anything related to that. Check your spelling")
         await asyncio.sleep(8)
         await k.delete()
