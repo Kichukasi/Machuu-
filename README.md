@@ -60,6 +60,8 @@ You can deploy this bot anywhere.
 </p>
 </details>
 
+# Deploy To Railway
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/qwrH9o?referralCode=653h-P)
 
 <details><summary>Deploy To VPS</summary>
 <p>
